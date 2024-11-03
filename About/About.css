@@ -1,0 +1,183 @@
+.about-hrader {
+  background: url(/public/images/About-header.png);
+
+  height: 100vh;
+  position: relative;
+}
+.about-hrader .about-title {
+  position: absolute;
+  top: 40%;
+  z-index: 11;
+  width: 300px;
+  /* background-color: rgb(66, 44, 16); */
+}
+
+.about-hrader .about-title h1 {
+  color: var(--textColor-L);
+  font-size: 50px;
+  font-weight: 800;
+
+  line-height: 1.5;
+}
+
+.about-hrader .about-title span {
+  display: inline-block;
+  background-color: var(--textColor-L);
+  width: 120%;
+  height: 2px;
+}
+/* ------------ message ----------- */
+.message {
+  background: url(/public/images/Message\ BG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px 0;
+  height: 100%;
+  padding: 50px;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+}
+
+.message h2 {
+  text-align: center;
+  font-weight: 800;
+  color: var(--mainColor);
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+
+.message p {
+  line-height: 2.6;
+  padding: 10px 40px;
+  text-align: justify;
+}
+.message span {
+  display: block;
+  margin-left: 50px;
+  text-align: left;
+  color: var(--mainColor);
+  font-weight: 700;
+}
+
+/* ------ Goals  && Value ------------ */
+
+.goals,
+.values {
+  background-color: var(--mainColor2);
+}
+.goals .goals-text,
+.values .valeus-text {
+  padding: 50px 0;
+}
+
+.goals .goals-text h2,
+.values .valeus-text h2 {
+  color: var(--textColor-L);
+  text-align: center;
+  font-weight: 700;
+}
+
+.goals .goals-text h2 img {
+  padding: 10px 30px;
+}
+.goals .goals-text h2 img:first-child {
+  transform: scaleX(-1);
+}
+
+.goals .goals-text p,
+.values .valeus-text p {
+  text-align: center;
+  line-height: 2.2;
+  color: var(--textColor-L);
+  margin-top: 20px;
+}
+
+/*  ------------- Visin -------------  */
+
+.about-vision .vision {
+  margin-top: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+.vision .v-body {
+  /* background-color: antiquewhite; */
+}
+
+.vision .v-body h3 {
+  display: inline-block;
+  color: var(--mainColor);
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.vision .v-body h3::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -15px;
+  height: 3px;
+  background-color: var(--mainColor);
+}
+
+.vision .v-body ol li {
+  padding-bottom: 20px;
+}
+
+.about-vision .image {
+  text-align: center;
+}
+
+.about-vision .image img {
+  width: 100%;
+  border-radius: 8px;
+  opacity: 80%;
+  transition: .2s;
+}
+.about-vision .image img:hover {
+  opacity: 100%;
+}
+
+/* --------- Value Items ----------- */
+
+.value-items{
+  margin: 50px 0;
+
+}
+.value-items .row{
+  justify-content: space-evenly;
+}
+
+.value-items .row .items{
+  text-align: center;
+ border-radius: 8px;
+ padding: 10px ;
+}
+.value-items .row .items:hover{
+ 
+  box-shadow: var(--shadow);
+}
+
+.value-items .row .items img{
+  opacity: 50%;
+  transition: .2s;
+  height: 90px;
+ 
+}
+.value-items .row .items img:hover{
+  opacity: 100%;
+}
+.value-items .row .items h5{
+  font-weight: 700;
+  color: var(--mainColor);
+  margin: 20px 0;
+}
+.value-items .row .items p{
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+:root {
+  --mainColor: #233671;
+  --mainColor2: #002639;
+  --secColor: #006b0f;
+  --textColor-D: #121212;
+  --textColor-L: #f5f5f5;
+  --shadow: 0px 1px 10px rgba(0, 38, 57, 0.08);
+}
+
+* {
+  font-family: "Droid Arabic Kufi", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: var(--textColor-D);
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

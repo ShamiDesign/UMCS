@@ -1,0 +1,49 @@
+.bg-body-tertiary {
+  background-color: var(--mainColor2) !important;
+  position: fixed;
+  z-index: 1111111111;
+  width: 100%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.navBar .nav-menu {
+  padding-left: 100px;
+  flex-grow: 0;
+  flex-direction: row-reverse !important;
+}
+Nav .navLinks,
+.navBar .lang {
+  color: var(--textColor-L);
+  font-weight: 600;
+  position: relative;
+}
+Nav .navLinks {
+  padding-right: 70px;
+}
+
+Nav .navLinks:hover::before {
+  content: " ";
+  position: absolute;
+  width: 80%;
+  height: 1px;
+  bottom: 0;
+  display: block;
+  background-color: rgb(159, 159, 159);
+  text-align: center;
+}
+Nav .navLinks:hover,
+Nav .navLinks.active {
+  color: rgb(159, 159, 159);
+}
+.me-auto{
+  gap: 20px;
+}
+.nav-menu-small{
+  background-color: var(--textColor-L);
+  /* color: aqua; */
+}

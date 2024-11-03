@@ -1,0 +1,164 @@
+/* Home - Landing ========== */
+
+.home-landing {
+  position: relative;
+  height: 100vh;
+}
+
+.home-landing .BG {
+  background-image: url(/public/images/H-land.png);
+  height: 100vh;
+}
+.home-landing .BG .overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00263991;
+  z-index: 1;
+}
+
+.header-home-land {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-home-land h1 {
+  width: 450px;
+  color: var(--textColor-L);
+  font-weight: 800;
+  text-align: center;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.header-home-land span {
+  color: var(--textColor-L);
+  font-size: 20px;
+  
+}
+
+/* =========== line ========= */
+.line-a{
+  margin: 100px 0 50px ;
+  text-align: center;
+ 
+}
+.line-a img{
+  width: 50%;
+}
+
+
+/* ======================== How Are We ============================================================ */
+
+.how-are-we {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  /* background-color: antiquewhite; */
+ 
+}
+.how-are-we .header-Home h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--mainColor);
+
+  margin-bottom: 30px;
+}
+.how-are-we .header-Home p {
+  line-height: 2.4;
+  text-align: justify;
+}
+.heaer-img {
+  padding-top: 50px;
+  padding-right: 20px;
+}
+.heaer-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #0cbdb1;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ======================== Companies ============================================================ */
+.companies{
+  margin-top: 100px;
+}
+
+.companies .header-comp{
+background-color: var(--mainColor2);
+text-align: center;
+border-radius: 8px 8px 0 0;
+}
+
+.companies .header-comp h2{
+  color: var(--textColor-L);
+  font-weight: 700;
+}
+.companies .header-comp h2 img{
+  padding: 10px 30px;
+}
+.companies .header-comp h2 img:first-child{
+  transform: scaleX(-1);
+}
+.companies .body-comp{
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.companies .body-comp .comp-card{
+/* background-color: antiquewhite; */
+margin: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+border-radius: 8px;
+box-shadow: var(--shadow);
+}
+.companies .body-comp .comp-card div{
+  padding-right: 20px;
+}
+.body-comp .comp-card h5{
+  font-weight: 700;
+  text-align: right;
+  color: var(--mainColor);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.body-comp .comp-card p{
+  text-align: right;
+}

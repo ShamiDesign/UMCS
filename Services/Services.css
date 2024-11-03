@@ -1,0 +1,76 @@
+.serv-hrader {
+    background: url(/public/images/services.png);
+  
+    height: 100vh;
+    position: relative;
+  }
+  .serv-hrader .serv-title {
+    position: absolute;
+    top: 50%;
+    z-index: 11;
+    width: 300px;
+    /* background-color: rgb(66, 44, 16); */
+  }
+  
+  .serv-hrader .serv-title h1 {
+    color: var(--textColor-L);
+    font-size: 50px;
+    font-weight: 800;
+      /* line-height: 1.5; */
+  }
+  
+  .serv-hrader .serv-title span {
+    display: inline-block;
+    background-color: var(--textColor-L);
+    width: 90%;
+    height: 2px;
+  }
+  /* -------------- Cards -------------*/
+  .cardesss{
+    /* background-color: bisque; */
+    margin: 100px 0;
+  }
+  .serv-cards{
+    /* background-color: rgb(222, 251, 143); */
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    box-shadow: var(--shadow);
+    align-items: center;
+   
+  }
+  .serv-cards .serv-text{
+    padding:40px  20px;
+  }
+  .serv-cards .serv-text .card-title{
+    font-weight: 700;
+    color: var( --mainColor);
+    margin-bottom: 30px;
+    display: inline-block;
+position: relative;
+  }
+  .serv-cards .serv-text .card-title::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -10px;
+    background-color: var(--mainColor);
+
+  }
+  .serv-cards .serv-text .card-body{
+    line-height: 2.5;
+    text-align: justify;
+  }
+
+
+  .serv-cards .serv-image img{
+    width: 100%;
+    border-radius: 8px;
+    opacity: 80%;
+    transition: .3s;
+  }
+
+  .serv-cards .serv-image img:hover{
+    opacity: 100%;
+  }

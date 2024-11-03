@@ -1,0 +1,8 @@
+body{
+    background-image: url(../public/images/BG.png);
+    background-size:cover;
+    font-family: 'DroidArabicKufiRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
